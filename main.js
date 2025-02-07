@@ -2,6 +2,8 @@
 // Code inside this block will run when the DOM content is fully loaded
 document.addEventListener('DOMContentLoaded', function () {
 
+    //initial fetch
+    fetchData();
     // Timer set to fetch data every 60 minutes
     setInterval(fetchData, 60 * 60 * 1000); // Every 60 minutes
 
